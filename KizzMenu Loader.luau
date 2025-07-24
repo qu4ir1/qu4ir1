@@ -7,9 +7,16 @@ local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/depthso
 local p = game:GetService('Players').LocalPlayer
 local character = p.Character or p.CharacterAdded:Wait()
 
---/ Principal window
+--/ principal window
 
 local Window = ReGui:TabsWindow({
 	Title = "Kizz Menu",
-	Size = UDim2.fromOffset(500, 320)
+	Size = UDim2.fromOffset(500, 350)
 })
+
+--/ options tabs
+
+local CombatTab = Window:CreateTab({Name = 'Combat'})
+local VisualTab = Window:CreateTab({Name = 'Visual'})
+local MiscellaneousTab = Window:CreateTab({Name = 'Miscellaneous'})
+
