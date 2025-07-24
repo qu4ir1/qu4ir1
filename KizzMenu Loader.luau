@@ -1,15 +1,15 @@
-local Fun = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/nightmares.fun-UI-Library/main/source.lua"))()
+--/ libary
 
-local window = Fun.Create("UI Library")
+local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/depthso/Dear-ReGui/refs/heads/main/ReGui.lua'))()
 
-local tab = window:Tab("Leak")
+--/ locals
 
-local section = tab:Section("Showcase")
+local p = game:GetService('Players').LocalPlayer
+local character = p.Character or p.CharacterAdded:Wait()
 
-section:Toggle("Toggle", function(s)
-   print(s)
-end)
+--/ Principal window
 
-section:Button("Button", function()
-   print('rtb balapo')
-end)
+local Window = ReGui:TabsWindow({
+	Title = "Tabs window demo!",
+	Size = UDim2.fromOffset(500, 250)
+})
