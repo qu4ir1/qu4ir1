@@ -1,1 +1,1 @@
-print('se pa sim mano')
+print('se pa sim manin')
