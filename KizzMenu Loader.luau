@@ -11,7 +11,7 @@ local character = p.Character or p.CharacterAdded:Wait()
 
 local Window = ReGui:TabsWindow({
 	Title = "Kizz Menu",
-	Size = UDim2.fromOffset(400, 350)
+	Size = UDim2.fromOffset(450, 300)
 })
 
 --/ options tabs
