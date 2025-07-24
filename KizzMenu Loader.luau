@@ -11,7 +11,7 @@ local character = p.Character or p.CharacterAdded:Wait()
 
 local Window = ReGui:TabsWindow({
 	Title = "Kizz Menu",
-	Size = UDim2.fromOffset(300, 450)
+	Size = UDim2.fromOffset(500, 320)
 })
 
 print('Load completed succefully')
