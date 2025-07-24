@@ -1,1 +1,1 @@
-print('eu quero transar crl')
+print('se pa sim mano')
