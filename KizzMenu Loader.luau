@@ -10,7 +10,7 @@ local character = p.Character or p.CharacterAdded:Wait()
 --/ Principal window
 
 local Window = ReGui:TabsWindow({
-	Title = "Tabs window demo!",
+	Title = "Kizz Menu",
 	Size = UDim2.fromOffset(300, 450)
 })
 
