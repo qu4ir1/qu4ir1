@@ -1,4 +1,2 @@
-Atualizei o loader do menu
-
-local p = game.Players.LocalPlayer
+ocal p = game.Players.LocalPlayer
 local sj = game:GetService('GamePassService')
