@@ -13,5 +13,3 @@ local Window = ReGui:TabsWindow({
 	Title = "Kizz Menu",
 	Size = UDim2.fromOffset(500, 320)
 })
-
-print('Load completed succefully')
