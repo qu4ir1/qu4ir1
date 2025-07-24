@@ -11,5 +11,7 @@ local character = p.Character or p.CharacterAdded:Wait()
 
 local Window = ReGui:TabsWindow({
 	Title = "Tabs window demo!",
-	Size = UDim2.fromOffset(400, 350)
+	Size = UDim2.fromOffset(300, 450)
 })
+
+print('Load completed succefully')
