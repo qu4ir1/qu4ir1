@@ -1,2 +1,1 @@
-ocal p = game.Players.LocalPlayer
-local sj = game:GetService('GamePassService')
+print('Sua mae é minha porra')
